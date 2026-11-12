@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso Restringido</title>
+    <meta http-equiv="refresh" content="3;url=https://mi-secreto.onrender.com"> <!-- Redirección automática tras 3 segundos -->
+    <style>
+        body { background: black; color: #0f0; font-family: monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; text-align: center; }
+        h1 { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+    <h1>DESCIFRANDO COORDENADAS...</h1>
+    <p>La pista está en el código fuente (F12).</p>
+    <!-- PISTA: La verdadera ubicación es https://mi-secreto.onrender.com -->
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://mi-secreto.onrender.com";
+        }, 3000);
+    </script>
+</body>
+</html>
